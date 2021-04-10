@@ -1,1 +1,0 @@
-module.exports = require('./bundle-url').getBundleURL() + "bingo-23.HASH_REF_787cdcbf467e42c5e4a4e8a1ab0ab23c.webp"
