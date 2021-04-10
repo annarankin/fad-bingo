@@ -1,0 +1,14 @@
+var _urlImgPngAsWebpWidth = require('url:./img/*.png?as=webp&width=250');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _urlImgPngAsWebpWidthDefault = _parcelHelpers.interopDefault(_urlImgPngAsWebpWidth);
+console.log(_urlImgPngAsWebpWidthDefault.default);
+window.onload = () => {
+  const bingoCard = document.getElementById('bingo-card');
+  Array.from({
+    length: 25
+  }).map((_, i) => {
+    square.src = null;
+    bingoCard.appendChild(square);
+    return square;
+  });
+};

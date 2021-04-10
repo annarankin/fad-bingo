@@ -1,0 +1,9 @@
+window.onload = () => {
+  const bingoCard = document.getElementById('bingo-card')
+  Array.from({length: 25}).map((_, i) =>{
+    const square = document.createElement('img')
+    square.src = `./img/bingo-${i + 1}.png`
+    bingoCard.appendChild(square)
+    return square
+  })
+}

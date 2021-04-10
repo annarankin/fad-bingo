@@ -1,0 +1,21 @@
+body {
+  background-color: salmon;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+#bingo-card {
+  display: grid;
+  display: inline-block;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  border: 10px solid white;
+}
+
+#bingo-card > div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid gray;
+}

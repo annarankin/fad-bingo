@@ -1,0 +1,26 @@
+body {
+  background-color: salmon;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+#bingo-card {
+
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  background-color: white;
+  border: 10px solid white;
+}
+
+#bingo-card > img {
+  max-width: 100%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

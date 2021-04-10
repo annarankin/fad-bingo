@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sharp": "^0.28.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-beta.2"
+  }
+}

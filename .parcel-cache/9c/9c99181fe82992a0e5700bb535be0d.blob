@@ -1,0 +1,10 @@
+window.onload = () => {
+  const bingoCard = document.getElementById('bingo-card')
+  const squares = Array.from({length: 25}).map((_, i) =>{
+    const square = document.createElement('div')
+    square.innerText = i
+    return square
+  })
+
+  bingoCard.append(squares)
+}
