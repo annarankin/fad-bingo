@@ -1,0 +1,2 @@
+body{background-color:salmon}body *{box-sizing:border-box}#bingo-card{display:grid;justify-content:center;grid-template-columns:100px 100px 100px 100px 100px;grid-template-rows:100px 100px 100px 100px 100px;background-color:#fff;border:10px solid #fff}#bingo-card>img{max-width:100%;border:1px solid grey;display:flex;justify-content:center;align-items:center}#bingo-card>img.selected{filter:brightness(80%) saturate(104%) sepia(100%) hue-rotate(100deg)}
+/*# sourceMappingURL=index.1e098667.css.map */
